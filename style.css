@@ -358,7 +358,7 @@ footer {
 
 	.categories-mobile {
 		width: 100%;
-		margin-bottom: 64px;
+		margin-bottom: 40px;
 		display: block;
 	}
 	
@@ -370,7 +370,7 @@ footer {
 		font-size: 0.9rem;
 		padding: 20px;
 		background-color: #494949;
-		margin-bottom: 64px;
+		margin-bottom: 40px;
 	}
 
 	.side {
