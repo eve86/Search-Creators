@@ -1,3 +1,7 @@
+$(document).ready(function(){
+  $(".main-item").hide().fadeIn();
+});
+
 $(function(){
   // 絞り込み
   var $btn = $('.btn [data-filter]'),
@@ -22,3 +26,15 @@ $(function(){
   })
 });
 
+$(window).scroll(function () {
+  $('.main-item').each(function () {
+    var elemPos = $(this).offset().top,
+      scroll = $(window).scrollTop(),
+      windowHeight = $(window).height();
+    if (scroll > elemPos - windowHeight + 10 ) {
+      $(this).fadeIn();
+    } else {
+      $(this).hide();
+    }
+  });
+});
