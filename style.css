@@ -132,6 +132,15 @@ header {
 	color: black;
 }
 
+marquee {
+	padding: 5px 0;
+	font-size: .7rem;
+	background-color: black;
+	color:white;
+	border-top: solid #f0f0f0 1px;
+	vertical-align: top;
+}
+
 main {
 	background-color: rgb(224, 224, 224);
 }
@@ -391,4 +400,4 @@ footer {
 		width: 80%;
 	}
 
-}　
+}
